@@ -1,0 +1,77 @@
+body {
+    font-size: 16px;
+}
+
+#header {
+    background-color: rgb(204, 207, 156);
+    width: calc(100vw - 28px);
+    padding: 14px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 78px;
+}
+
+.logo a {
+    width: 60px;
+}
+
+.logo h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.itens-menu {
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.itens-menu .icon {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .itens-menu .links {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        right: 13px;
+        background-color: white;
+        padding: 14px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .itens-menu .links a {
+        padding: 5px;
+    }
+
+    .itens-menu .icon {
+        display: inline
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 1140px) {
+    
+}
