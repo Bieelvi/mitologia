@@ -1,0 +1,48 @@
+#nav {
+    height: 100vh;
+    width: 20vw;
+}
+
+#nav .listas {
+    padding: 14px;
+}
+
+#nav .lista {
+    margin: 5px 5px 15px 5px;
+}
+
+#nav .titulo {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#nav li {
+    margin: 5px 0 5px 0;
+}
+
+@media screen and (max-width: 576px) {
+    #nav .listas {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    #nav {
+        width: 100vw;
+        height: auto;
+    }
+
+    #nav .listas {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    
+}
