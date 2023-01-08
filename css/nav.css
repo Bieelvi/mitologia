@@ -21,17 +21,17 @@
     margin: 5px 0 5px 0;
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
     #nav .listas {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     
 }
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
     #nav {
         width: 100vw;
         height: auto;
@@ -43,6 +43,6 @@
     }
 }
 
-@media screen and (max-width: 1140px) {
+@media (max-width: 1140px) {
     
 }

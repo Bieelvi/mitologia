@@ -68,20 +68,20 @@ a:visited {
 	color: var(--font-color);
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
 	
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	
 }
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
     .conteudo {
 		display: block;
 	}
 }
 
-@media screen and (max-width: 1140px) {
+@media (max-width: 1140px) {
     
 }
