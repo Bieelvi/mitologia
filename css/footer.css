@@ -1,0 +1,40 @@
+#footer {
+    background-color: rgb(var(--bg-header));
+    padding: 14px;
+    height: 80px;
+}
+
+#footer .logo {
+    display: flex;
+    justify-content: center;
+    height: calc(78px - 28px);
+}
+
+#footer .logo a {
+    width: 50px;
+}
+
+#footer .logo img {
+    width: 100%;
+}
+
+#footer .logo span {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#footer .creditos {
+    display: flex;
+    justify-content: center;
+    padding: 14px;    
+}
+
+#footer .creditos a {
+    text-decoration: none;;
+}
+
+#footer .creditos a:visited {
+    color: var(--font-color);
+}

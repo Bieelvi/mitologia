@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/fontawesome-free-6.2.1-web/css/solid.css">
     <link rel="stylesheet" href="./css/variaveis.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/css.css">
     <title>Mitlogias</title>
 </head>
@@ -20,7 +21,7 @@
             </a>
             <h1>Mitologia <br> Grega</h1>
         </div>
-        <nav class="itens-menu">
+        <div class="itens-menu">
             <div class="icon" id="menu-hamburguer">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -30,20 +31,40 @@
                 <a href="#">Mais</a>
                 <a href="#">Foda-se</a>
             </div>
-        </nav>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <article>
-                
-            </article>
-        </section>
-    </main>
+    <div style="display: flex;">
+        <nav id="nav" style="width: 20vw; background-color: green;">
+            nav
+        </nav>
 
-    <aside></aside>
+        <main style="width: 60vw;">
+            <section style="height: 100vh; background-color: red;">
+                <article>
+                    section 1
+                </article>
+            </section>
+        </main>
+    
+        <aside id="aside" style="width: 20vw; background-color: blue;">
+            aside
+        </aside>
+    </div>
 
-    <footer></footer>
+    <footer id="footer">
+        <div class="logo">
+            <a href="#">
+                <img src="./assets/logo-header.png" alt="logo header">
+            </a>
+            <span>Mitologia <br> Grega</span>
+        </div>
+        <div class="creditos">            
+            <a href="https://github.com/Bieelvi" target="_blank">
+                Criado por Gabs 2023 - github.com/Bieelvi
+            </a>
+        </div>
+    </footer>
 </body>
 <script type="text/javascript" src="./js/toggleMenuMobile.js"></script>
 </html>
