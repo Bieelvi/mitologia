@@ -43,13 +43,7 @@ body {
 }
 
 #header .itens-menu .links a {
-    color: black;
-    text-decoration: none;
     margin: 0 5px 0 5px;
-}
-
-#header .itens-menu .links a:visited {
-    color: var(--font-color);
 }
 
 @media (max-width: 576px) {
