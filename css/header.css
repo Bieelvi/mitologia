@@ -1,26 +1,27 @@
 body {
-    font-size: 16px;
+    font-size: var(--font-size);
 }
 
 #header {
-    background-color: rgb(204, 207, 156);
+    background-color: rgb(var(--bg-header));
     width: calc(100vw - 28px);
     padding: 14px;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 78px;
+    height: calc(78px - 28px);
 }
 
 .logo a {
-    width: 60px;
+    width: 50px;
 }
 
 .logo h1 {
@@ -43,6 +44,15 @@ body {
     display: none;
 }
 
+.itens-menu .links a {
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+}
+
+.itens-menu .links a:visited {
+    color: var(--font-color);
+}
+
 @media (max-width: 576px) {
     .itens-menu .links {
         display: none;
@@ -57,6 +67,7 @@ body {
 
     .itens-menu .links a {
         padding: 5px;
+        margin: 5px 0 5px 0;
     }
 
     .itens-menu .icon {
