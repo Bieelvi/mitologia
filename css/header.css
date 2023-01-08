@@ -1,7 +1,3 @@
-body {
-    font-size: var(--font-size);
-}
-
 #header {
     background-color: rgb(var(--bg-header));
     padding: 14px;
