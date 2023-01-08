@@ -54,3 +54,7 @@ table {
 .displayFlex {
 	display: flex !important
 }
+
+.conteudo {
+	display: flex;
+}
