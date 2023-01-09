@@ -1,0 +1,12 @@
+#botao-voltar {
+    position: fixed; 
+    right: 15px; 
+    bottom: 25px;
+}
+
+#botao-voltar a {
+    background-color: white; 
+    border-radius: 15px; 
+    border: 2px black solid;
+    padding: 10px;
+}

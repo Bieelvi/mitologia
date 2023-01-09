@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/article.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/botao-voltar.css">
     <title>Mitlogias</title>
 </head>
 <body>
@@ -43,8 +44,8 @@
                 <div class="lista">
                     <h4 class="titulo">Deuses</h4>
                     <ul>
-                        <li><a href="#" onclick="busca('deuses', 'zeus')">Zeus</a></li>
-                        <li><a href="#" onclick="busca('deuses', 'poseidon')">Poseidon</a></li>
+                        <li><a href="./index.html#section" onclick="busca('deuses', 'zeus')">Zeus</a></li>
+                        <li><a href="./index.html#section" onclick="busca('deuses', 'poseidon')">Poseidon</a></li>
                         <li><a href="#">Hades</a></li>
                         <li><a href="#">Atena</a></li>
                         <li><a href="#">Ares</a></li>
@@ -106,7 +107,18 @@
             </a>
         </div>
     </footer>
+
+    <div id="botao-voltar">
+        <a href="./index.html#nav">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
 </body>
+
 <script type="text/javascript" src="./js/toggleMenuMobile.js"></script>
 <script type="text/javascript" src="./js/artigo.js"></script>
+<script type="text/javascript">
+    busca('deuses', 'zeus');
+</script>
+
 </html>
