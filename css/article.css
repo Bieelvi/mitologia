@@ -1,0 +1,22 @@
+#article {
+    height: auto;
+    padding: 14px;
+}
+
+#article h2 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+#article p {
+    margin-top: 14px;
+}
+
+#article h3 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 14px;
+}

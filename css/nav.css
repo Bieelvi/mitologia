@@ -1,6 +1,7 @@
 #nav {
     height: 100vh;
     width: 20vw;
+    border-right: 1px solid black;
 }
 
 #nav .listas {
@@ -34,6 +35,8 @@
 @media (max-width: 992px) {
     #nav {
         width: 100vw;
+        border-right: initial;
+        border-bottom: 1px solid black;
         height: auto;
     }
 

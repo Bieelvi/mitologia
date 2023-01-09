@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/section.css">
+    <link rel="stylesheet" href="./css/article.css">
     <link rel="stylesheet" href="./css/footer.css">
     <title>Mitlogias</title>
 </head>
@@ -43,8 +43,8 @@
                 <div class="lista">
                     <h4 class="titulo">Deuses</h4>
                     <ul>
-                        <li><a href="#">Zeus</a></li>
-                        <li><a href="#">Poseidon</a></li>
+                        <li><a href="#" onclick="busca('deuses', 'zeus')">Zeus</a></li>
+                        <li><a href="#" onclick="busca('deuses', 'poseidon')">Poseidon</a></li>
                         <li><a href="#">Hades</a></li>
                         <li><a href="#">Atena</a></li>
                         <li><a href="#">Ares</a></li>
@@ -81,8 +81,13 @@
 
         <main id="main">
             <section id="section">
-                <article>
-                    section 1
+                <article id="article">
+                    <h2 class="titulo"></h2>
+                    <h3 class="subtitulo"></h3>
+                    <p class="descricao1"></p>
+                    <p class="descricao2"></p>
+                    <p class="descricao3"></p>
+                    <p class="descricao4"></p>
                 </article>
             </section>
         </main>
@@ -103,4 +108,5 @@
     </footer>
 </body>
 <script type="text/javascript" src="./js/toggleMenuMobile.js"></script>
+<script type="text/javascript" src="./js/artigo.js"></script>
 </html>
