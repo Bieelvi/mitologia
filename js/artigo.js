@@ -11,8 +11,15 @@ function busca(pasta, arquivo) {
 function populaArtigo(response) {
     const object = JSON.parse(response);
     const article = document.getElementById('article');
+    article.innerHTML = '';
 
-    article.getElementsByClassName('titulo')[0].innerHTML = object.nome;
-    article.getElementsByClassName('subtitulo')[0].innerHTML = object.subtitulo;
-    article.getElementsByClassName('descricao1')[0].innerHTML = object.descricao1;    
+    object.textos.forEach((texto, i) => {
+        let tag = document.createElement(texto.tag);
+        tag.classList.add(`${texto.className}${i}`);
+
+        let content = document.createTextNode(texto.descricao);
+        tag.appendChild(content);
+
+        article.appendChild(tag);
+    });
 }
